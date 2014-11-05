@@ -1,17 +1,24 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+  <div class="wrapper">
+    {% include header.html %}
 
-  <div class="entry">
-    {{ content }}
+    <!-- Content goes here... -->
+    <article>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </article>
+
+    <footer>
+      <p>
+        <a class="home" href="/">Home</a>
+      </p>
+    </footer>
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
-</article>
+  {% include js.html %}
+</body>
+</html>
