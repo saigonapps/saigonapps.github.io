@@ -12,4 +12,4 @@ permalink : /picasso/
 
 — [Pablo Picasso][picasso]
 
-[picasso] http://en.wikipedia.org/wiki/Pablo_Picasso
+[picasso]: http://en.wikipedia.org/wiki/Pablo_Picasso
