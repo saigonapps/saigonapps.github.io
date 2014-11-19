@@ -9,4 +9,4 @@ permalink : /brancusi/
 > Sáng tạo như Chúa trời, chỉ huy như nhà vua, và làm việc như nô lệ.
 — [Constantine Brancusi][brancusi]
 
-[maya]: http://en.wikipedia.org/wiki/Constantin_Brâncuși
+[brancusi]: http://en.wikipedia.org/wiki/Constantin_Brâncuși
